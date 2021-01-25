@@ -29,12 +29,24 @@
     rgba(255, 255, 255, 0.7)
   ); /* Filter color */
 }
-
-/* Dark theme  */
 .darktheme {
   --accent: #4b8ec4; /* Hover color */
-  --bg: #025A6C;/*#19171a; /* Background color */
-  --sbg: #356974; /* Cards color */
+  --bg: #0d5b6b; /* Background color */
+  --sbg: #317988; /* Cards color */
+  --fg: #d8dee9; /* Foreground color */
+  --sfg: #3a3a3a; /* Secondary Foreground color */
+  --imgcol: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ); /* Filter color */
+  /* Dark theme  */
+}
+  /*
+
+.darktheme {
+  --accent: #4b8ec4; /* Hover color */
+  --bg: #025A6C; 
+  --sbg: #356974;  /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
@@ -42,7 +54,7 @@
     rgba(0, 0, 0, 0.7)
   ); /* Filter color */
 }
-
+*/
 /* S T Y L E S */
 
 * {
